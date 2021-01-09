@@ -1,0 +1,515 @@
+/*start main style*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	user-select: none;
+}
+.container{
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: auto;
+}
+.clear-fix{
+	clear: both;
+}
+/*start header*/
+.header .slider{
+	background-image: url(../images/helloquence-61189-unsplash-1280px-1170x600.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+
+.header .nav-bar{
+	cursor: pointer;
+	background-color: #252F31;
+	color: #FFF;	
+	overflow: hidden;
+		
+}
+.header .overlay{
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.header .nav-bar h2{
+	float: left;
+	text-transform: uppercase;
+}
+.header .nav-bar .logo{
+	background-color:#2ecc71;
+	margin-right: 20px;
+	padding: 5px;
+	border-radius:3px;
+	height: 22px;
+    width: 20px;
+    text-align: center;
+}
+.header .nav-bar h2 span{
+	color: #2ecc71;
+}
+.header .nav-bar ul{
+	list-style: none;
+	padding-left: 0;
+	float: right;
+}
+.header .nav-bar ul li{
+	float: left;
+	padding: 10px;
+}
+.header .nav-bar ul li a{
+	color: #FFF;
+	text-decoration: none;
+	
+}
+.header .nav-bar ul li.active a {
+	color: #30B576;
+}
+.header .nav-bar ul li a:hover{
+	color: #30B576;
+	transition: 0.5s;
+}
+.header .intro{
+	padding-top: 200px;
+	text-align: center;
+	color: #FFF;
+}
+.header .intro h2{
+	margin: 0 auto;
+	font-size: 50px;
+	width: 600px;
+	z-index: 2;
+	position: relative;
+	border-top: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.header .intro button{
+	z-index: 2;
+	position: relative;
+	background: none;
+	font-size: 20px;
+	border: 2px solid #FFF;
+	font-weight: bold;
+	padding: 10px 30px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+/*end header*/
+/*start Features*/
+.features{
+position: relative;
+padding-top: 60px;
+padding-bottom: 60px;
+overflow: hidden;
+}
+.features .feature-box{
+	position: relative;
+	width: calc(98% / 3);
+	float: left;
+	
+}
+.features .feature-box:not(:last-of-type){
+	margin-right: 1%;
+}
+.features .feature-box h2{
+	margin left: 20px;
+	color: #555;
+}
+.features .feature-box p{
+	line-height: 1.7;
+	color:#888;
+}
+/*end Features*/
+/*start aboutMe*/
+.about-me{
+position: relative;
+overflow: hidden;
+background-color: #DDD;
+}
+.about-me .image{
+	float: left;
+	width: 40%;
+}
+.about-me .image img{
+	width: 100%;
+	height: 100%;
+	
+}
+.about-me .info{
+	float: right;
+	width: 60%;
+}
+.about-me .info h2{
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+.about-me .info > p{
+	margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type{
+	margin: 20px 0 10px 40px;
+
+}
+.about-me .info  p{
+	line-height: 1.6;
+	color: #666;
+}
+.about-me .info .man-skill{
+	overflow: hidden;
+	margin: 15px 0 0 40px;
+}
+.about-me .info .man-skill .content{
+	float: left;
+	width: 45%;
+	overflow: hidden;
+	margin-right: 10%;
+}
+.about-me .info .man-skill .content:nth-of-type(2),
+.about-me .info .man-skill .content:nth-of-type(4){
+	margin-right: 0;
+}
+
+.about-me .info .man-skill .content .icons{
+	float: left;
+	width: 12%;
+	margin-right: 8%;
+	color: #EEE;
+}
+.about-me .info .man-skill .content .icons i{margin-top: 30px; color:#2DCC70;}
+.about-me .info .man-skill .content .text{
+	float: left;
+	width: 80%;
+}
+.about-me .info .man-skill  h3{
+	color: #555;
+	margin-bottom: 5px;
+}
+.about-me .info .man-skill  p{
+	margin-top:  0;
+}
+
+/*end aboutMe*/
+/*start skills*/
+.skills{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.skills .my-skills,
+.skills .progress
+{
+	float: left;
+	width: 50%;
+}
+.skills .my-skills h2{
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+.skills .my-skills p{
+	line-height: 1.6;
+	color: #666;
+	margin: 0 0 10px 40px;
+}
+.skills .my-skills > p:last-of-type{
+	margin-top: 25px;
+
+}
+.skills .my-skills button{
+	margin: 20px 0 0 40px;
+}
+
+.skills .progress .rate {
+	margin-left: 100px;
+}
+.skills .progress .rate h3{
+	color: #555;
+}
+.skills .progress .rate div{
+	background-color: #F2F2F2;
+	height: 25px;
+}
+.skills .progress .rate span{
+	background-color: #2Dcc70;
+	height: 25px;
+	display: block; 
+	color: #FFF;
+	text-align: right;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+/*end skills*/
+/*start Resume*/
+.resume{
+	background-color: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom:70px;
+	text-align: center;
+	position: relative;
+}
+.resume h2{
+	font-weight: bold;
+	color: #666;
+}
+.resume p{
+	line-height: 1.7;
+	color: #666;
+	padding: 0 40px;
+}
+.resume button{
+	margin-top: 25px;
+}
+.resume:before{
+	content: '';
+    border-width: 50px;
+    border-style: solid;
+    border-color: #F2F2F2 transparent transparent transparent;
+    top: 325px;
+    left: 47%;
+    position: absolute;
+}
+/*end Resume*/
+/*start eduction*/
+.eduction{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.eduction  hr{
+	margin: 20px 0;
+	background-color: #999;
+	height: 1px;
+	border: 0;
+}
+.eduction .main{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+
+.eduction .main h2{
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+.eduction .main p{
+	line-height: 1.6;
+	color: #666;
+	margin: 0 0 10px 40px;
+}
+.eduction .main  p:last-of-type{
+	margin-top: 25px;
+
+}
+.eduction .xp
+{
+	float: left;
+	width: 45%;
+}
+.eduction .xp h3{
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+.eduction .xp span{
+	display: block;
+	margin-bottom: 10px;
+}
+.eduction .xp span:first-of-type{
+	color: #666;
+}
+.eduction .xp span:nth-of-type(2){
+	color: #FFF;
+	background-color: #2DCC70;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.eduction .xp p{
+	line-height: 1.7;
+	color: #666;
+}
+/*end eduction*/
+/*start testminuals*/
+.testminuals{
+	background-color: #F2F2F2;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	overflow: hidden;
+}
+.testminuals q{
+	line-height: 1.8;
+	color: #888;	
+	font: italic bold 18px/1.8 Arial, Tahoma;
+}
+.testminuals h2{
+	color: #777;
+	margin-bottom: 30px;
+}
+.testminuals ul{
+	list-style: none; 
+	padding: 0;
+	text-align: center;
+	
+}
+.testminuals ul li{
+	width: 15px;
+	height: 15px;
+	border: 2px solid #2DCC70;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.testminuals ul li.active{
+	background-color: #2DCC70;}
+.testminuals ul li:hover{
+	background-color: #2DCC70;
+	transition: 0.5s;
+	
+}
+/*end testminuals*/
+/*start portfolio*/
+.portfolio{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	overflow: hidden;
+	text-align: center;
+}
+.portfolio h2{
+	text-transform: uppercase;
+	color: #777;
+	
+}
+.portfolio p{
+	line-height: 1.7;
+	color: #666;
+	margin-bottom: 30px;
+}
+.portfolio .image-group {
+	overflow: hidden;}
+.portfolio .image-group > div{
+	float: left;
+	margin-bottom: 10px;
+	width: calc(98% / 3);
+}
+.portfolio .image-group > div img{
+	width: 92%;
+	margin: 10px;
+	padding: 3px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+}
+/*end portfolio*/
+/*start contact Me*/
+.contact-me{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	background-color: #252F31;
+	overflow: hidden;
+}
+.contact-me .info{
+	float: left;
+	width: 50%;
+	margin-right: 5%;
+}
+.contact-me h2{
+	color: #FFF;
+	margin: 25px 0 20px 40px;
+}
+.contact-me p{
+	color: #6A6E71;
+	margin: 25px 0 20px 40px;
+	line-height: 1.7;
+}
+.contact-me p strong{
+	color: #D1D6DA;
+	margin-right: 50px;
+}
+
+.contact-me .form-contact{
+	float: left;
+	width: 45%;
+}
+.contact-me .form-contact label{
+	display: block;
+	color: #D1D6DA;
+	margin: 10px 0;
+}
+.contact-me .form-contact input[type = "text"]{
+	background-color: #4B5557;
+	color: #FFF;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px;
+}
+.contact-me .form-contact textarea{
+	background-color: #4B5557;
+	color: #FFF;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px;
+	height: 300px;
+	resize: none;
+}
+
+.contact-me .form-contact input[type = "submit"]{
+	background-color: #191E22;
+	color: #FFF;
+	padding: 10px 20px;
+	border: 0;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.contact-me .form-contact input:focus,
+.contact-me .form-contact textarea:focus
+{
+	outline: 0;
+}
+/*end contact Me*/
+/*start Footer*/
+.footer{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #191E22;
+	color: #6A6E71;
+	text-align: center;
+	overflow: hidden;
+}
+.footer span{float: left;}
+.footer ul{
+	list-style: none;
+	text-align: center;
+	overflow: hidden;
+	padding-left: 0;
+	margin: 0;
+	float: right;
+}
+.footer ul li{
+	display: inline-block;}
+.footer ul li i:hover{color: #FFF;}
+/*end Footer*/
+/*my Frame Work*/
+.mybutton{
+	background: none;
+	border: 3px solid #2Dcc70;
+	color: #2Dcc70;
+	padding: 10px 30px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}
+fl-left{float: left;}
